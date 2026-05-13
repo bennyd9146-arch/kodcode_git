@@ -37,15 +37,13 @@
 #     return new_str
 # print(reverse_string("benny"))   
 
-def index(name,/,age,adress):
-    print(name,age,adress)
+# # 5
+# def find_max(lst:list):
+#     max_number = 0
+#     for num in lst:
+#         if num > max_number:
+#             max_number = num
+#     return max_number
+# print(find_max([5,4,956,78,32,546])) 
 
-index("benny",21,"E'lade") 
-
-def unlimited(*iteme):
-    print(*iteme)
-
-
-def itemse(name,/,*,age,adress,):
-    print(name,age,adress)
 
